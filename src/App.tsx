@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FestivalData, Stage, Performance } from './types';
+import { FestivalData } from './types';
 import NowPlaying from './components/NowPlaying';
 import LikedArtists from './components/LikedArtists';
 import FullSchedule from './components/FullSchedule';
@@ -12,14 +12,12 @@ export default function App() {
     const saved = localStorage.getItem('likedArtists');
     return saved ? JSON.parse(saved) : [];
   });
+  const [view, setView] = useState<'now' | 'liked' | 'full'>('now');
 
   useEffect(() => {
     fetch(DATA_URL)
       .then((res) => res.json())
-      .then((data) => {
-        console.log('Fetched data:', data); // 👈 Add this
-        setData(data);
-      })
+      .then(setData)
       .catch(console.error);
   }, []);
 
@@ -27,15 +25,15 @@ export default function App() {
     localStorage.setItem('likedArtists', JSON.stringify(liked));
   }, [liked]);
 
-  function toggleLike(artistId: string) {
+  function toggleLike(artist: string) {
     setLiked((prev) =>
-      prev.includes(artistId)
-        ? prev.filter((a) => a !== artistId)
-        : [...prev, artistId],
+      prev.includes(artist)
+        ? prev.filter((a) => a !== artist)
+        : [...prev, artist],
     );
   }
 
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <div>Loading festival data...</div>;
 
   return (
     <div
@@ -47,19 +45,36 @@ export default function App() {
       }}
     >
       <h1>{data.festival_name}</h1>
-      <NowPlaying
-        stages={data.stages}
-        liked={liked}
-        onToggleLike={toggleLike}
-      />
-      <hr style={{ margin: '2rem 0' }} />
-      <LikedArtists
-        liked={liked}
-        stages={data.stages}
-        onToggleLike={toggleLike}
-      />
-      <hr style={{ margin: '2rem 0' }} />
-      <FullSchedule stages={data.stages} />
+
+      <nav style={{ marginBottom: 20 }}>
+        <button onClick={() => setView('now')} disabled={view === 'now'}>
+          Now Playing
+        </button>{' '}
+        <button onClick={() => setView('liked')} disabled={view === 'liked'}>
+          Liked Artists
+        </button>{' '}
+        <button onClick={() => setView('full')} disabled={view === 'full'}>
+          Full Schedule
+        </button>
+      </nav>
+
+      {view === 'now' && (
+        <NowPlaying
+          stages={data.stages}
+          liked={liked}
+          onToggleLike={toggleLike}
+        />
+      )}
+
+      {view === 'liked' && (
+        <LikedArtists
+          liked={liked}
+          stages={data.stages}
+          onToggleLike={toggleLike}
+        />
+      )}
+
+      {view === 'full' && <FullSchedule stages={data.stages} />}
     </div>
   );
 }
