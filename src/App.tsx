@@ -3,6 +3,7 @@ import { FestivalData } from './types';
 import NowPlaying from './components/NowPlaying';
 import LikedArtists from './components/LikedArtists';
 import FullSchedule from './components/FullSchedule';
+import Timeline from './components/TimeLine';
 
 const DATA_URL = '/festival_schedule.json';
 
@@ -12,7 +13,9 @@ export default function App() {
     const saved = localStorage.getItem('likedArtists');
     return saved ? JSON.parse(saved) : [];
   });
-  const [view, setView] = useState<'now' | 'liked' | 'full'>('now');
+  const [view, setView] = useState<'now' | 'liked' | 'full' | 'timeline'>(
+    'now',
+  );
 
   useEffect(() => {
     fetch(DATA_URL)
@@ -55,6 +58,12 @@ export default function App() {
         </button>{' '}
         <button onClick={() => setView('full')} disabled={view === 'full'}>
           Full Schedule
+        </button>{' '}
+        <button
+          onClick={() => setView('timeline')}
+          disabled={view === 'timeline'}
+        >
+          Timeline
         </button>
       </nav>
 
@@ -75,6 +84,10 @@ export default function App() {
       )}
 
       {view === 'full' && <FullSchedule stages={data.stages} />}
+
+      {view === 'timeline' && (
+        <Timeline stages={data.stages} currentTime={new Date()} />
+      )}
     </div>
   );
 }
