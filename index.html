@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Festival Schedule Viewer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: #f5f5f5;
+        padding: 20px;
+      }
+      select,
+      button {
+        padding: 5px 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .tabs {
+        margin: 10px 0;
+      }
+      .tab {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-right: 5px;
+        background: #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .tab.active {
+        background: #333;
+        color: white;
+      }
+      .schedule {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .event {
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎶 Festival Program Viewer</h1>
+
+    <input type="file" id="fileInput" accept=".json" />
+    <br />
+
+    <label for="stageSelect">Choose Stage:</label>
+    <select id="stageSelect"></select>
+
+    <div class="tabs" id="dayTabs"></div>
+
+    <div class="schedule" id="scheduleContainer"></div>
+
+    <script>
+      let data = {};
+      let currentStage = null;
+      let currentDay = null;
+
+      document
+        .getElementById('fileInput')
+        .addEventListener('change', function (e) {
+          const file = e.target.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = function (event) {
+            data = JSON.parse(event.target.result);
+            initUI();
+          };
+          reader.readAsText(file);
+        });
+
+      function initUI() {
+        const select = document.getElementById('stageSelect');
+        select.innerHTML = '';
+        data.stages.forEach((stage, i) => {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.textContent = stage.name;
+          select.appendChild(opt);
+        });
+        select.addEventListener('change', (e) => {
+          currentStage = data.stages[e.target.value];
+          renderTabs();
+        });
+        select.selectedIndex = 0;
+        currentStage = data.stages[0];
+        renderTabs();
+      }
+
+      function renderTabs() {
+        const tabs = document.getElementById('dayTabs');
+        tabs.innerHTML = '';
+        const days = Object.keys(currentStage.schedule);
+        days.forEach((day) => {
+          const tab = document.createElement('div');
+          tab.className = 'tab' + (day === days[0] ? ' active' : '');
+          tab.textContent = day;
+          tab.addEventListener('click', () => {
+            document
+              .querySelectorAll('.tab')
+              .forEach((t) => t.classList.remove('active'));
+            tab.classList.add('active');
+            renderSchedule(day);
+          });
+          tabs.appendChild(tab);
+        });
+        renderSchedule(days[0]);
+      }
+
+      function renderSchedule(day) {
+        const container = document.getElementById('scheduleContainer');
+        container.innerHTML = '';
+        const events = currentStage.schedule[day];
+        if (!events || events.length === 0) {
+          container.textContent = 'No events for this day.';
+          return;
+        }
+        events.forEach((event) => {
+          const div = document.createElement('div');
+          div.className = 'event';
+          div.textContent = `${event.time} – ${event.artist}`;
+          container.appendChild(div);
+        });
+      }
+    </script>
+  </body>
+</html>
