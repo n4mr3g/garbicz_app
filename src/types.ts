@@ -22,3 +22,9 @@ export interface FestivalData {
   festival_name: string;
   stages: Stage[];
 }
+export interface TimelineProps {
+  stages: Stage[];
+  currentTime: Date;
+  liked: string[];
+  onToggleLike: (artist: string) => void;
+}

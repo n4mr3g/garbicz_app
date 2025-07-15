@@ -86,7 +86,12 @@ export default function App() {
       {view === 'full' && <FullSchedule stages={data.stages} />}
 
       {view === 'timeline' && (
-        <Timeline stages={data.stages} currentTime={new Date()} />
+        <Timeline
+          stages={data.stages}
+          liked={liked}
+          currentTime={new Date()}
+          onToggleLike={toggleLike}
+        />
       )}
     </div>
   );
