@@ -4,6 +4,7 @@ import NowPlaying from './components/NowPlaying';
 import LikedArtists from './components/LikedArtists';
 import FullSchedule from './components/FullSchedule';
 import Timeline from './components/TimeLine';
+import './index.css';
 
 const DATA_URL = '/festival_schedule.json';
 
