@@ -25,7 +25,7 @@ export default function NowPlaying({ stages, liked, onToggleLike }: Props) {
       {stages.map((stage) => {
         const slots = stage.schedule[day] || [];
         return (
-          <div key={stage.name} style={{ marginBottom: 20 }}>
+          <div key={stage.name}>
             <h3>{stage.name}</h3>
             {slots.length === 0 && <div>No events today.</div>}
             {slots.map(({ time: slotTime, artist }, idx) => (

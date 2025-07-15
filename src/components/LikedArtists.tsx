@@ -40,7 +40,7 @@ export default function LikedArtists({ liked, stages, onToggleLike }: Props) {
           if (!info) return null;
           const { stageName, day, performance } = info;
           return (
-            <li key={id} style={{ marginBottom: 6 }}>
+            <li key={id}>
               {performance.artist} - <strong>{stageName}</strong> ({day}{' '}
               {performance.time})
               <button

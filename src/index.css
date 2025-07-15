@@ -29,6 +29,10 @@ h6 {
   flex-direction: column;
 }
 
+.app-container {
+  max-width: max-content;
+}
+
 h1,
 h2,
 h3 {

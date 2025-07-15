@@ -40,14 +40,7 @@ export default function App() {
   if (!data) return <div>Loading festival data...</div>;
 
   return (
-    <div
-      style={{
-        maxWidth: 700,
-        margin: 'auto',
-        padding: 20,
-        fontFamily: 'sans-serif',
-      }}
-    >
+    <div className='app-container'>
       <h1>{data.festival_name}</h1>
 
       <nav style={{ marginBottom: 20 }}>

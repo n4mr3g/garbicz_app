@@ -6,38 +6,168 @@
       "description": "Get ready to hit the Wald floor! This is the place to be if you love hard, driving techno beats that will get you dancing all night long. With a straight-forward, energetic vibe, this spot is perfect for those who crave the heavier, more energetic sounds. The light setup is next level, creating a super cool atmosphere, and the laser show will blow your mind and elevate your dance experience to the next level.",
       "schedule": {
         "THURSDAY": [
-          { "time": "18:00", "artist": "Leafar Legov live" },
-          { "time": "19:30", "artist": "Ogazon" },
-          { "time": "21:30", "artist": "Vril live" },
-          { "time": "23:00", "artist": "Amoral" },
-          { "time": "01:30", "artist": "Alarico b2b Ignez" },
-          { "time": "04:30", "artist": "break" }
+          {
+            "artist": "Leafar Legov live",
+            "start-time": "2025-07-31T18:00:00",
+            "end-time": "2025-07-31T19:30:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Ogazon",
+            "start-time": "2025-07-31T19:30:00",
+            "end-time": "2025-07-31T21:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Vril live",
+            "start-time": "2025-07-31T21:30:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 90.0
+          }
         ],
         "FRIDAY": [
-          { "time": "18:00", "artist": "Moopie" },
-          { "time": "20:30", "artist": "Polygonia" },
-          { "time": "22:30", "artist": "Isabel Soto" },
-          { "time": "00:30", "artist": "Norbak live" },
-          { "time": "02:00", "artist": "Temudo" },
-          { "time": "04:00", "artist": "Efdemin" },
-          { "time": "06:30", "artist": "break" }
+          {
+            "artist": "Amoral",
+            "start-time": "2025-08-01T00:00:00",
+            "end-time": "2025-08-01T01:30:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Alarico b2b Ignez",
+            "start-time": "2025-08-01T01:30:00",
+            "end-time": "2025-08-01T04:30:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "break",
+            "start-time": "2025-08-01T04:30:00",
+            "end-time": "2025-08-01T06:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Moopie",
+            "start-time": "2025-08-01T18:00:00",
+            "end-time": "2025-08-01T20:30:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "Polygonia",
+            "start-time": "2025-08-01T20:30:00",
+            "end-time": "2025-08-01T22:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Isabel Soto",
+            "start-time": "2025-08-01T22:30:00",
+            "end-time": "2025-08-02T00:30:00",
+            "duration": 120.0
+          }
         ],
         "SATURDAY": [
-          { "time": "18:00", "artist": "Vi" },
-          { "time": "20:30", "artist": "MKO" },
-          { "time": "22:30", "artist": "Elisa Bee" },
-          { "time": "01:00", "artist": "Yanamaste live" },
-          { "time": "02:00", "artist": "Force Reaction (Kaiser&Kwartz)" },
-          { "time": "05:00", "artist": "Delano Legito" },
-          { "time": "07:00", "artist": "break" }
+          {
+            "artist": "Norbak live",
+            "start-time": "2025-08-02T00:30:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Temudo",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T04:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Efdemin",
+            "start-time": "2025-08-02T04:00:00",
+            "end-time": "2025-08-02T06:30:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "break",
+            "start-time": "2025-08-02T06:30:00",
+            "end-time": "2025-08-02T18:00:00",
+            "duration": 690.0
+          },
+          {
+            "artist": "Vi",
+            "start-time": "2025-08-02T18:00:00",
+            "end-time": "2025-08-02T20:30:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "MKO",
+            "start-time": "2025-08-02T20:30:00",
+            "end-time": "2025-08-02T22:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Elisa Bee",
+            "start-time": "2025-08-02T22:30:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 150.0
+          }
         ],
         "SUNDAY": [
-          { "time": "15:00", "artist": "Katja Komorebi" },
-          { "time": "18:00", "artist": "Amount live" },
-          { "time": "19:30", "artist": "Bodyshift" },
-          { "time": "21:30", "artist": "Britta Arnold" },
-          { "time": "23:30", "artist": "Sven Dohse" },
-          { "time": "02:00", "artist": "end" }
+          {
+            "artist": "Yanamaste live",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T02:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "Force Reaction (Kaiser&Kwartz)",
+            "start-time": "2025-08-03T02:00:00",
+            "end-time": "2025-08-03T05:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "Delano Legito",
+            "start-time": "2025-08-03T05:00:00",
+            "end-time": "2025-08-03T07:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "break",
+            "start-time": "2025-08-03T07:00:00",
+            "end-time": "2025-08-03T15:00:00",
+            "duration": 480.0
+          },
+          {
+            "artist": "Katja Komorebi",
+            "start-time": "2025-08-03T15:00:00",
+            "end-time": "2025-08-03T18:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "Amount live",
+            "start-time": "2025-08-03T18:00:00",
+            "end-time": "2025-08-03T19:30:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Bodyshift",
+            "start-time": "2025-08-03T19:30:00",
+            "end-time": "2025-08-03T21:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Britta Arnold",
+            "start-time": "2025-08-03T21:30:00",
+            "end-time": "2025-08-03T23:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Sven Dohse",
+            "start-time": "2025-08-03T23:30:00",
+            "end-time": "2025-08-04T02:00:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-04T02:00:00",
+            "end-time": "2025-08-04T02:00:00",
+            "duration": 0.0
+          }
         ]
       }
     },
@@ -47,114 +177,166 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "18:30",
-            "artist": "opening performance"
+            "artist": "opening performance",
+            "start-time": "2025-07-31T18:30:00",
+            "end-time": "2025-07-31T19:00:00",
+            "duration": 30.0
           },
           {
-            "time": "19:00",
-            "artist": "Mimi Love"
+            "artist": "Mimi Love",
+            "start-time": "2025-07-31T19:00:00",
+            "end-time": "2025-07-31T22:00:00",
+            "duration": 180.0
           },
           {
-            "time": "22:00",
-            "artist": "Ryan Elliott"
-          },
-          {
-            "time": "00:00",
-            "artist": "Marie Montexier"
-          },
-          {
-            "time": "02:00",
-            "artist": "Alex Kassian"
-          },
-          {
-            "time": "04:00",
-            "artist": "Fantastic Man"
-          },
-          {
-            "time": "06:00",
-            "artist": "break"
+            "artist": "Ryan Elliott",
+            "start-time": "2025-07-31T22:00:00",
+            "end-time": "2025-08-01T00:00:00",
+            "duration": 120.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "19:30",
-            "artist": "Ficken und Faulenzen performance"
+            "artist": "Marie Montexier",
+            "start-time": "2025-08-01T00:00:00",
+            "end-time": "2025-08-01T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Tai Lokun"
+            "artist": "Alex Kassian",
+            "start-time": "2025-08-01T02:00:00",
+            "end-time": "2025-08-01T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "22:00",
-            "artist": "Gabrielle Kwarteng"
+            "artist": "Fantastic Man",
+            "start-time": "2025-08-01T04:00:00",
+            "end-time": "2025-08-01T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Chaos in the CBD"
+            "artist": "break",
+            "start-time": "2025-08-01T06:00:00",
+            "end-time": "2025-08-01T19:30:00",
+            "duration": 810.0
           },
           {
-            "time": "02:00",
-            "artist": "Anja Schneider"
+            "artist": "Ficken und Faulenzen performance",
+            "start-time": "2025-08-01T19:30:00",
+            "end-time": "2025-08-01T20:00:00",
+            "duration": 30.0
           },
           {
-            "time": "04:00",
-            "artist": "Franca"
+            "artist": "Tai Lokun",
+            "start-time": "2025-08-01T20:00:00",
+            "end-time": "2025-08-01T22:00:00",
+            "duration": 120.0
           },
           {
-            "time": "06:00",
-            "artist": "break"
+            "artist": "Gabrielle Kwarteng",
+            "start-time": "2025-08-01T22:00:00",
+            "end-time": "2025-08-02T00:00:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "18:00",
-            "artist": "Tereza"
+            "artist": "Chaos in the CBD",
+            "start-time": "2025-08-02T00:00:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Map.ache live"
+            "artist": "Anja Schneider",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "21:00",
-            "artist": "&ME"
+            "artist": "Franca",
+            "start-time": "2025-08-02T04:00:00",
+            "end-time": "2025-08-02T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Sarah Sommers live"
+            "artist": "break",
+            "start-time": "2025-08-02T06:00:00",
+            "end-time": "2025-08-02T18:00:00",
+            "duration": 720.0
           },
           {
-            "time": "01:20",
-            "artist": "Marcel Dettmann"
+            "artist": "Tereza",
+            "start-time": "2025-08-02T18:00:00",
+            "end-time": "2025-08-02T20:00:00",
+            "duration": 120.0
           },
           {
-            "time": "03:30",
-            "artist": "NuCasa"
+            "artist": "Map.ache live",
+            "start-time": "2025-08-02T20:00:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 60.0
           },
           {
-            "time": "05:30",
-            "artist": "break"
+            "artist": "&ME",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-03T00:00:00",
+            "duration": 180.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "15:00",
-            "artist": "Natalie Robinson & Katy de Jesus"
+            "artist": "Sarah Sommers live",
+            "start-time": "2025-08-03T00:00:00",
+            "end-time": "2025-08-03T01:20:00",
+            "duration": 80.0
           },
           {
-            "time": "17:00",
-            "artist": "Fritz Windish"
+            "artist": "Marcel Dettmann",
+            "start-time": "2025-08-03T01:20:00",
+            "end-time": "2025-08-03T03:30:00",
+            "duration": 130.0
           },
           {
-            "time": "19:00",
-            "artist": "Ola Teks"
+            "artist": "NuCasa",
+            "start-time": "2025-08-03T03:30:00",
+            "end-time": "2025-08-03T05:30:00",
+            "duration": 120.0
           },
           {
-            "time": "21:00",
-            "artist": "Kenny Larkin"
+            "artist": "break",
+            "start-time": "2025-08-03T05:30:00",
+            "end-time": "2025-08-03T15:00:00",
+            "duration": 570.0
           },
           {
-            "time": "00:00",
-            "artist": "end"
+            "artist": "Natalie Robinson & Katy de Jesus",
+            "start-time": "2025-08-03T15:00:00",
+            "end-time": "2025-08-03T17:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Fritz Windish",
+            "start-time": "2025-08-03T17:00:00",
+            "end-time": "2025-08-03T19:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Ola Teks",
+            "start-time": "2025-08-03T19:00:00",
+            "end-time": "2025-08-03T21:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Kenny Larkin",
+            "start-time": "2025-08-03T21:00:00",
+            "end-time": "2025-08-04T00:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-04T00:00:00",
+            "end-time": "2025-08-04T00:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -165,196 +347,288 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "15:00",
-            "artist": "Losdos2"
+            "artist": "Losdos2",
+            "start-time": "2025-07-31T15:00:00",
+            "end-time": "2025-07-31T17:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "Bipolar Soundsystem"
+            "artist": "Bipolar Soundsystem",
+            "start-time": "2025-07-31T17:00:00",
+            "end-time": "2025-07-31T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Ceelo"
+            "artist": "Ceelo",
+            "start-time": "2025-07-31T19:00:00",
+            "end-time": "2025-07-31T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "21:00",
-            "artist": "Cajoux"
+            "artist": "Cajoux",
+            "start-time": "2025-07-31T21:00:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Pimpa Bloom"
-          },
-          {
-            "time": "01:00",
-            "artist": "Pavelo Promillo & Giorgio Inkasso"
-          },
-          {
-            "time": "03:00",
-            "artist": "Lenny Fuck"
-          },
-          {
-            "time": "05:00",
-            "artist": "WD40"
-          },
-          {
-            "time": "07:00",
-            "artist": "Lily Haz"
-          },
-          {
-            "time": "10:00",
-            "artist": "Mischi Mischpult"
-          },
-          {
-            "time": "12:00",
-            "artist": "break"
+            "artist": "Pimpa Bloom",
+            "start-time": "2025-07-31T23:00:00",
+            "end-time": "2025-08-01T01:00:00",
+            "duration": 120.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "16:00",
-            "artist": "Cris Kai"
+            "artist": "Pavelo Promillo & Giorgio Inkasso",
+            "start-time": "2025-08-01T01:00:00",
+            "end-time": "2025-08-01T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "OKO DJ"
+            "artist": "Lenny Fuck",
+            "start-time": "2025-08-01T03:00:00",
+            "end-time": "2025-08-01T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "21:00",
-            "artist": "Terrible Infants"
+            "artist": "WD40",
+            "start-time": "2025-08-01T05:00:00",
+            "end-time": "2025-08-01T07:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Fio Fa"
+            "artist": "Lily Haz",
+            "start-time": "2025-08-01T07:00:00",
+            "end-time": "2025-08-01T10:00:00",
+            "duration": 180.0
           },
           {
-            "time": "02:00",
-            "artist": "DJ Koolt"
+            "artist": "Mischi Mischpult",
+            "start-time": "2025-08-01T10:00:00",
+            "end-time": "2025-08-01T12:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "Asia"
+            "artist": "break",
+            "start-time": "2025-08-01T12:00:00",
+            "end-time": "2025-08-01T16:00:00",
+            "duration": 240.0
           },
           {
-            "time": "06:00",
-            "artist": "IX4M"
+            "artist": "Cris Kai",
+            "start-time": "2025-08-01T16:00:00",
+            "end-time": "2025-08-01T19:00:00",
+            "duration": 180.0
           },
           {
-            "time": "08:00",
-            "artist": "Aii PS b2b SiSi"
+            "artist": "OKO DJ",
+            "start-time": "2025-08-01T19:00:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "11:00",
-            "artist": "Alexander Jenkin"
+            "artist": "Terrible Infants",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-02T00:00:00",
+            "duration": 180.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "13:00",
-            "artist": "Dragana"
+            "artist": "Fio Fa",
+            "start-time": "2025-08-02T00:00:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:00",
-            "artist": "Tibi Dabo"
+            "artist": "DJ Koolt",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "Alexia"
+            "artist": "Asia",
+            "start-time": "2025-08-02T04:00:00",
+            "end-time": "2025-08-02T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Tau Car & International Mac"
+            "artist": "IX4M",
+            "start-time": "2025-08-02T06:00:00",
+            "end-time": "2025-08-02T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "21:00",
-            "artist": "Cosmo"
+            "artist": "Aii PS b2b SiSi",
+            "start-time": "2025-08-02T08:00:00",
+            "end-time": "2025-08-02T11:00:00",
+            "duration": 180.0
           },
           {
-            "time": "23:00",
-            "artist": "Eduardo de la Calle"
+            "artist": "Alexander Jenkin",
+            "start-time": "2025-08-02T11:00:00",
+            "end-time": "2025-08-02T13:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "tobias. live"
+            "artist": "Dragana",
+            "start-time": "2025-08-02T13:00:00",
+            "end-time": "2025-08-02T15:00:00",
+            "duration": 120.0
           },
           {
-            "time": "02:30",
-            "artist": "Edward"
+            "artist": "Tibi Dabo",
+            "start-time": "2025-08-02T15:00:00",
+            "end-time": "2025-08-02T17:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:30",
-            "artist": "Konstantin"
+            "artist": "Alexia",
+            "start-time": "2025-08-02T17:00:00",
+            "end-time": "2025-08-02T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "06:30",
-            "artist": "WildLife"
+            "artist": "Tau Car & International Mac",
+            "start-time": "2025-08-02T19:00:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "10:00",
-            "artist": "Justin Shaffer"
+            "artist": "Cosmo",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-02T23:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Eduardo de la Calle",
+            "start-time": "2025-08-02T23:00:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "13:00",
-            "artist": "DJ Wife"
+            "artist": "tobias. live",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T02:30:00",
+            "duration": 90.0
           },
           {
-            "time": "15:00",
-            "artist": "Helge Misof"
+            "artist": "Edward",
+            "start-time": "2025-08-03T02:30:00",
+            "end-time": "2025-08-03T04:30:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "Henriku"
+            "artist": "Konstantin",
+            "start-time": "2025-08-03T04:30:00",
+            "end-time": "2025-08-03T06:30:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Morgan"
+            "artist": "WildLife",
+            "start-time": "2025-08-03T06:30:00",
+            "end-time": "2025-08-03T10:00:00",
+            "duration": 210.0
           },
           {
-            "time": "21:00",
-            "artist": "Arno"
+            "artist": "Justin Shaffer",
+            "start-time": "2025-08-03T10:00:00",
+            "end-time": "2025-08-03T13:00:00",
+            "duration": 180.0
           },
           {
-            "time": "23:00",
-            "artist": "Evgeniia"
+            "artist": "DJ Wife",
+            "start-time": "2025-08-03T13:00:00",
+            "end-time": "2025-08-03T15:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "Robert Owens"
+            "artist": "Helge Misof",
+            "start-time": "2025-08-03T15:00:00",
+            "end-time": "2025-08-03T17:00:00",
+            "duration": 120.0
           },
           {
-            "time": "03:00",
-            "artist": "Esther Silex"
+            "artist": "Henriku",
+            "start-time": "2025-08-03T17:00:00",
+            "end-time": "2025-08-03T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "05:00",
-            "artist": "Marta Lee"
+            "artist": "Morgan",
+            "start-time": "2025-08-03T19:00:00",
+            "end-time": "2025-08-03T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "07:00",
-            "artist": "break"
+            "artist": "Arno",
+            "start-time": "2025-08-03T21:00:00",
+            "end-time": "2025-08-03T23:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Evgeniia",
+            "start-time": "2025-08-03T23:00:00",
+            "end-time": "2025-08-04T01:00:00",
+            "duration": 120.0
           }
         ],
         "MONDAY": [
           {
-            "time": "11:00",
-            "artist": "Hari & Achill"
+            "artist": "Robert Owens",
+            "start-time": "2025-08-04T01:00:00",
+            "end-time": "2025-08-04T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "13:00",
-            "artist": "Yamour"
+            "artist": "Esther Silex",
+            "start-time": "2025-08-04T03:00:00",
+            "end-time": "2025-08-04T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:00",
-            "artist": "Dyed Soundorom"
+            "artist": "Marta Lee",
+            "start-time": "2025-08-04T05:00:00",
+            "end-time": "2025-08-04T07:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:30",
-            "artist": "Sonja Moonear"
+            "artist": "break",
+            "start-time": "2025-08-04T07:00:00",
+            "end-time": "2025-08-04T11:00:00",
+            "duration": 240.0
           },
           {
-            "time": "20:00",
-            "artist": "end"
+            "artist": "Hari & Achill",
+            "start-time": "2025-08-04T11:00:00",
+            "end-time": "2025-08-04T13:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Yamour",
+            "start-time": "2025-08-04T13:00:00",
+            "end-time": "2025-08-04T15:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Dyed Soundorom",
+            "start-time": "2025-08-04T15:00:00",
+            "end-time": "2025-08-04T17:30:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "Sonja Moonear",
+            "start-time": "2025-08-04T17:30:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 150.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-04T20:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -365,220 +639,330 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "15:00",
-            "artist": "Amapola & Arnau Yuna"
+            "artist": "Amapola & Arnau Yuna",
+            "start-time": "2025-07-31T15:00:00",
+            "end-time": "2025-07-31T17:30:00",
+            "duration": 150.0
           },
           {
-            "time": "17:30",
-            "artist": "Ilyari live"
+            "artist": "Ilyari live",
+            "start-time": "2025-07-31T17:30:00",
+            "end-time": "2025-07-31T18:30:00",
+            "duration": 60.0
           },
           {
-            "time": "18:30",
-            "artist": "Captain of None"
+            "artist": "Captain of None",
+            "start-time": "2025-07-31T18:30:00",
+            "end-time": "2025-07-31T20:30:00",
+            "duration": 120.0
           },
           {
-            "time": "20:30",
-            "artist": "Ficken und Faulenzen performance"
+            "artist": "Ficken und Faulenzen performance",
+            "start-time": "2025-07-31T20:30:00",
+            "end-time": "2025-07-31T21:00:00",
+            "duration": 30.0
           },
           {
-            "time": "21:00",
-            "artist": "Kitty and the Cat live"
+            "artist": "Kitty and the Cat live",
+            "start-time": "2025-07-31T21:00:00",
+            "end-time": "2025-07-31T22:00:00",
+            "duration": 60.0
           },
           {
-            "time": "22:00",
-            "artist": "[äis]"
+            "artist": "[äis]",
+            "start-time": "2025-07-31T22:00:00",
+            "end-time": "2025-07-31T23:30:00",
+            "duration": 90.0
           },
           {
-            "time": "23:30",
-            "artist": "JPattersson"
-          },
-          {
-            "time": "00:30",
-            "artist": "Yamz"
-          },
-          {
-            "time": "02:00",
-            "artist": "Ed Noodle"
-          },
-          {
-            "time": "03:30",
-            "artist": "Athie Umgido"
-          },
-          {
-            "time": "05:00",
-            "artist": "Deep Gosh"
-          },
-          {
-            "time": "06:00",
-            "artist": "break"
+            "artist": "JPattersson",
+            "start-time": "2025-07-31T23:30:00",
+            "end-time": "2025-08-01T00:30:00",
+            "duration": 60.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "13:30",
-            "artist": "Heimlich Knüller"
+            "artist": "Yamz",
+            "start-time": "2025-08-01T00:30:00",
+            "end-time": "2025-08-01T02:00:00",
+            "duration": 90.0
           },
           {
-            "time": "17:00",
-            "artist": "Ojam feat. LENI live"
+            "artist": "Ed Noodle",
+            "start-time": "2025-08-01T02:00:00",
+            "end-time": "2025-08-01T03:30:00",
+            "duration": 90.0
           },
           {
-            "time": "18:00",
-            "artist": "DJ Smut"
+            "artist": "Athie Umgido",
+            "start-time": "2025-08-01T03:30:00",
+            "end-time": "2025-08-01T05:00:00",
+            "duration": 90.0
           },
           {
-            "time": "21:00",
-            "artist": "Midsummer Night‘s Cream performance"
+            "artist": "Deep Gosh",
+            "start-time": "2025-08-01T05:00:00",
+            "end-time": "2025-08-01T06:00:00",
+            "duration": 60.0
           },
           {
-            "time": "22:00",
-            "artist": "Muovipussi performance"
+            "artist": "break",
+            "start-time": "2025-08-01T06:00:00",
+            "end-time": "2025-08-01T13:30:00",
+            "duration": 450.0
           },
           {
-            "time": "23:00",
-            "artist": "Spievy live"
+            "artist": "Heimlich Knüller",
+            "start-time": "2025-08-01T13:30:00",
+            "end-time": "2025-08-01T17:00:00",
+            "duration": 210.0
           },
           {
-            "time": "23:30",
-            "artist": "Khidja"
+            "artist": "Ojam feat. LENI live",
+            "start-time": "2025-08-01T17:00:00",
+            "end-time": "2025-08-01T18:00:00",
+            "duration": 60.0
           },
           {
-            "time": "01:30",
-            "artist": "Anatolian Weapons"
+            "artist": "DJ Smut",
+            "start-time": "2025-08-01T18:00:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 180.0
           },
           {
-            "time": "03:30",
-            "artist": "Front de Cadeaux"
+            "artist": "Midsummer Night‘s Cream performance",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-01T22:00:00",
+            "duration": 60.0
           },
           {
-            "time": "05:30",
-            "artist": "Sutsche"
+            "artist": "Muovipussi performance",
+            "start-time": "2025-08-01T22:00:00",
+            "end-time": "2025-08-01T23:00:00",
+            "duration": 60.0
           },
           {
-            "time": "08:00",
-            "artist": "jorke live"
+            "artist": "Spievy live",
+            "start-time": "2025-08-01T23:00:00",
+            "end-time": "2025-08-01T23:30:00",
+            "duration": 30.0
           },
           {
-            "time": "09:00",
-            "artist": "break"
+            "artist": "Khidja",
+            "start-time": "2025-08-01T23:30:00",
+            "end-time": "2025-08-02T01:30:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "14:00",
-            "artist": "DirdyGerdi & Mia Kober"
+            "artist": "Anatolian Weapons",
+            "start-time": "2025-08-02T01:30:00",
+            "end-time": "2025-08-02T03:30:00",
+            "duration": 120.0
           },
           {
-            "time": "16:00",
-            "artist": "Rico Loop feat. The Pappenheimer's live"
+            "artist": "Front de Cadeaux",
+            "start-time": "2025-08-02T03:30:00",
+            "end-time": "2025-08-02T05:30:00",
+            "duration": 120.0
           },
           {
-            "time": "17:30",
-            "artist": "Princess Room live"
+            "artist": "Sutsche",
+            "start-time": "2025-08-02T05:30:00",
+            "end-time": "2025-08-02T08:00:00",
+            "duration": 150.0
           },
           {
-            "time": "19:00",
-            "artist": "Martha Van Straaten"
+            "artist": "jorke live",
+            "start-time": "2025-08-02T08:00:00",
+            "end-time": "2025-08-02T09:00:00",
+            "duration": 60.0
           },
           {
-            "time": "21:00",
-            "artist": "Kabeaushé live"
+            "artist": "break",
+            "start-time": "2025-08-02T09:00:00",
+            "end-time": "2025-08-02T14:00:00",
+            "duration": 300.0
           },
           {
-            "time": "22:00",
-            "artist": "Laetizia"
+            "artist": "DirdyGerdi & Mia Kober",
+            "start-time": "2025-08-02T14:00:00",
+            "end-time": "2025-08-02T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Catnapp live"
+            "artist": "Rico Loop feat. The Pappenheimer's live",
+            "start-time": "2025-08-02T16:00:00",
+            "end-time": "2025-08-02T17:30:00",
+            "duration": 90.0
           },
           {
-            "time": "01:00",
-            "artist": "Lena Willikens"
+            "artist": "Princess Room live",
+            "start-time": "2025-08-02T17:30:00",
+            "end-time": "2025-08-02T19:00:00",
+            "duration": 90.0
           },
           {
-            "time": "03:00",
-            "artist": "Tai Rona b2b Katzele"
+            "artist": "Martha Van Straaten",
+            "start-time": "2025-08-02T19:00:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "06:00",
-            "artist": "Dr. Gonzo"
+            "artist": "Kabeaushé live",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-02T22:00:00",
+            "duration": 60.0
           },
           {
-            "time": "08:00",
-            "artist": "break"
+            "artist": "Laetizia",
+            "start-time": "2025-08-02T22:00:00",
+            "end-time": "2025-08-03T00:00:00",
+            "duration": 120.0
+          }
+        ],
+        "SUNDAY": [
+          {
+            "artist": "Catnapp live",
+            "start-time": "2025-08-03T00:00:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 60.0
           },
           {
-            "time": "14:00",
-            "artist": "Just1"
+            "artist": "Lena Willikens",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "16:00",
-            "artist": "Douniah live"
+            "artist": "Tai Rona b2b Katzele",
+            "start-time": "2025-08-03T03:00:00",
+            "end-time": "2025-08-03T06:00:00",
+            "duration": 180.0
           },
           {
-            "time": "17:00",
-            "artist": "Khadija"
+            "artist": "Dr. Gonzo",
+            "start-time": "2025-08-03T06:00:00",
+            "end-time": "2025-08-03T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Lourdes Lourdes live"
+            "artist": "break",
+            "start-time": "2025-08-03T08:00:00",
+            "end-time": "2025-08-03T14:00:00",
+            "duration": 360.0
           },
           {
-            "time": "20:00",
-            "artist": "Omoloko"
+            "artist": "Just1",
+            "start-time": "2025-08-03T14:00:00",
+            "end-time": "2025-08-03T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "22:00",
-            "artist": "Wayne Snow live"
+            "artist": "Douniah live",
+            "start-time": "2025-08-03T16:00:00",
+            "end-time": "2025-08-03T17:00:00",
+            "duration": 60.0
           },
           {
-            "time": "23:00",
-            "artist": "Parris"
+            "artist": "Khadija",
+            "start-time": "2025-08-03T17:00:00",
+            "end-time": "2025-08-03T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "Suricata + Don Alex Albert"
+            "artist": "Lourdes Lourdes live",
+            "start-time": "2025-08-03T19:00:00",
+            "end-time": "2025-08-03T20:00:00",
+            "duration": 60.0
           },
           {
-            "time": "04:00",
-            "artist": "Lemonella"
+            "artist": "Omoloko",
+            "start-time": "2025-08-03T20:00:00",
+            "end-time": "2025-08-03T22:00:00",
+            "duration": 120.0
           },
           {
-            "time": "06:00",
-            "artist": "DJ Balaton"
+            "artist": "Wayne Snow live",
+            "start-time": "2025-08-03T22:00:00",
+            "end-time": "2025-08-03T23:00:00",
+            "duration": 60.0
           },
           {
-            "time": "08:00",
-            "artist": "Jascha Hagen"
+            "artist": "Parris",
+            "start-time": "2025-08-03T23:00:00",
+            "end-time": "2025-08-04T01:00:00",
+            "duration": 120.0
+          }
+        ],
+        "MONDAY": [
+          {
+            "artist": "Suricata + Don Alex Albert",
+            "start-time": "2025-08-04T01:00:00",
+            "end-time": "2025-08-04T04:00:00",
+            "duration": 180.0
           },
           {
-            "time": "10:00",
-            "artist": "Avem live"
+            "artist": "Lemonella",
+            "start-time": "2025-08-04T04:00:00",
+            "end-time": "2025-08-04T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "11:00",
-            "artist": "Marliblue & Sofyah"
+            "artist": "DJ Balaton",
+            "start-time": "2025-08-04T06:00:00",
+            "end-time": "2025-08-04T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "13:00",
-            "artist": "Loui Beton XTars"
+            "artist": "Jascha Hagen",
+            "start-time": "2025-08-04T08:00:00",
+            "end-time": "2025-08-04T10:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:00",
-            "artist": "DAJO live"
+            "artist": "Avem live",
+            "start-time": "2025-08-04T10:00:00",
+            "end-time": "2025-08-04T11:00:00",
+            "duration": 60.0
           },
           {
-            "time": "16:00",
-            "artist": "Mira & Chris Schwarzwälder"
+            "artist": "Marliblue & Sofyah",
+            "start-time": "2025-08-04T11:00:00",
+            "end-time": "2025-08-04T13:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:00",
-            "artist": "ADA"
+            "artist": "Loui Beton XTars",
+            "start-time": "2025-08-04T13:00:00",
+            "end-time": "2025-08-04T15:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "end"
+            "artist": "DAJO live",
+            "start-time": "2025-08-04T15:00:00",
+            "end-time": "2025-08-04T16:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "Mira & Chris Schwarzwälder",
+            "start-time": "2025-08-04T16:00:00",
+            "end-time": "2025-08-04T18:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "ADA",
+            "start-time": "2025-08-04T18:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-04T20:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -589,138 +973,202 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "14:30",
-            "artist": "Vicky Kroon"
+            "artist": "Vicky Kroon",
+            "start-time": "2025-07-31T14:30:00",
+            "end-time": "2025-07-31T16:00:00",
+            "duration": 90.0
           },
           {
-            "time": "16:00",
-            "artist": "Zahara"
+            "artist": "Zahara",
+            "start-time": "2025-07-31T16:00:00",
+            "end-time": "2025-07-31T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:00",
-            "artist": "Radio Rapha b2b Sexy Lazer"
+            "artist": "Radio Rapha b2b Sexy Lazer",
+            "start-time": "2025-07-31T18:00:00",
+            "end-time": "2025-07-31T21:00:00",
+            "duration": 180.0
           },
           {
-            "time": "21:00",
-            "artist": "Nico Stojan"
+            "artist": "Nico Stojan",
+            "start-time": "2025-07-31T21:00:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Metrika live"
-          },
-          {
-            "time": "01:00",
-            "artist": "David Dinger b2b Avocado"
-          },
-          {
-            "time": "03:00",
-            "artist": "Tōki"
-          },
-          {
-            "time": "05:00",
-            "artist": "break"
+            "artist": "Metrika live",
+            "start-time": "2025-07-31T23:00:00",
+            "end-time": "2025-08-01T01:00:00",
+            "duration": 120.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "12:00",
-            "artist": "Ava Irandoost"
+            "artist": "David Dinger b2b Avocado",
+            "start-time": "2025-08-01T01:00:00",
+            "end-time": "2025-08-01T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "14:00",
-            "artist": "Harri Pepper"
+            "artist": "Tōki",
+            "start-time": "2025-08-01T03:00:00",
+            "end-time": "2025-08-01T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "16:00",
-            "artist": "Kapten & Robin Scott"
+            "artist": "break",
+            "start-time": "2025-08-01T05:00:00",
+            "end-time": "2025-08-01T12:00:00",
+            "duration": 420.0
           },
           {
-            "time": "18:00",
-            "artist": "Mandrake"
+            "artist": "Ava Irandoost",
+            "start-time": "2025-08-01T12:00:00",
+            "end-time": "2025-08-01T14:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Kalabrese"
+            "artist": "Harri Pepper",
+            "start-time": "2025-08-01T14:00:00",
+            "end-time": "2025-08-01T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "22:00",
-            "artist": "Luke Alessi"
+            "artist": "Kapten & Robin Scott",
+            "start-time": "2025-08-01T16:00:00",
+            "end-time": "2025-08-01T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Julya Karma"
+            "artist": "Mandrake",
+            "start-time": "2025-08-01T18:00:00",
+            "end-time": "2025-08-01T20:00:00",
+            "duration": 120.0
           },
           {
-            "time": "02:00",
-            "artist": "break"
+            "artist": "Kalabrese",
+            "start-time": "2025-08-01T20:00:00",
+            "end-time": "2025-08-01T22:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Luke Alessi",
+            "start-time": "2025-08-01T22:00:00",
+            "end-time": "2025-08-02T00:00:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "16:00",
-            "artist": "Conjunto Media Luna (hybrid live)"
+            "artist": "Julya Karma",
+            "start-time": "2025-08-02T00:00:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Johannes Albert"
+            "artist": "break",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T16:00:00",
+            "duration": 840.0
           },
           {
-            "time": "21:00",
-            "artist": "Steve Challier"
+            "artist": "Conjunto Media Luna (hybrid live)",
+            "start-time": "2025-08-02T16:00:00",
+            "end-time": "2025-08-02T19:00:00",
+            "duration": 180.0
           },
           {
-            "time": "23:00",
-            "artist": "Anna Wall"
+            "artist": "Johannes Albert",
+            "start-time": "2025-08-02T19:00:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "Rakim Under b2b David Triana"
+            "artist": "Steve Challier",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-02T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "03:00",
-            "artist": "O.BEE & Tomas Station"
-          },
-          {
-            "time": "05:00",
-            "artist": "b2b: O.BEE - Tomas Station - Triana - Rakim"
-          },
-          {
-            "time": "07:00",
-            "artist": "break"
+            "artist": "Anna Wall",
+            "start-time": "2025-08-02T23:00:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "10:00",
-            "artist": "Motion People"
+            "artist": "Rakim Under b2b David Triana",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "12:00",
-            "artist": "Bliss Kiss"
+            "artist": "O.BEE & Tomas Station",
+            "start-time": "2025-08-03T03:00:00",
+            "end-time": "2025-08-03T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "13:30",
-            "artist": "Lepiszcze"
+            "artist": "b2b: O.BEE - Tomas Station - Triana - Rakim",
+            "start-time": "2025-08-03T05:00:00",
+            "end-time": "2025-08-03T07:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:00",
-            "artist": "Peter Schumann"
+            "artist": "break",
+            "start-time": "2025-08-03T07:00:00",
+            "end-time": "2025-08-03T10:00:00",
+            "duration": 180.0
           },
           {
-            "time": "17:00",
-            "artist": "Halina World b2b kEczuP"
+            "artist": "Motion People",
+            "start-time": "2025-08-03T10:00:00",
+            "end-time": "2025-08-03T12:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:30",
-            "artist": "Jellin b2b Nowosad"
+            "artist": "Bliss Kiss",
+            "start-time": "2025-08-03T12:00:00",
+            "end-time": "2025-08-03T13:30:00",
+            "duration": 90.0
           },
           {
-            "time": "20:00",
-            "artist": "Pauli Pocket"
+            "artist": "Lepiszcze",
+            "start-time": "2025-08-03T13:30:00",
+            "end-time": "2025-08-03T15:00:00",
+            "duration": 90.0
           },
           {
-            "time": "22:00",
-            "artist": "end"
+            "artist": "Peter Schumann",
+            "start-time": "2025-08-03T15:00:00",
+            "end-time": "2025-08-03T17:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Halina World b2b kEczuP",
+            "start-time": "2025-08-03T17:00:00",
+            "end-time": "2025-08-03T18:30:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Jellin b2b Nowosad",
+            "start-time": "2025-08-03T18:30:00",
+            "end-time": "2025-08-03T20:00:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Pauli Pocket",
+            "start-time": "2025-08-03T20:00:00",
+            "end-time": "2025-08-03T22:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-03T22:00:00",
+            "end-time": "2025-08-03T22:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -731,186 +1179,274 @@
       "schedule": {
         "FRIDAY": [
           {
-            "time": "12:00",
-            "artist": "opening ceremony"
+            "artist": "opening ceremony",
+            "start-time": "2025-08-01T12:00:00",
+            "end-time": "2025-08-01T14:00:00",
+            "duration": 120.0
           },
           {
-            "time": "14:00",
-            "artist": "DS83"
+            "artist": "DS83",
+            "start-time": "2025-08-01T14:00:00",
+            "end-time": "2025-08-01T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "16:00",
-            "artist": "Leafar Legov live"
+            "artist": "Leafar Legov live",
+            "start-time": "2025-08-01T16:00:00",
+            "end-time": "2025-08-01T17:30:00",
+            "duration": 90.0
           },
           {
-            "time": "17:30",
-            "artist": "Laura Fiore"
+            "artist": "Laura Fiore",
+            "start-time": "2025-08-01T17:30:00",
+            "end-time": "2025-08-01T19:30:00",
+            "duration": 120.0
           },
           {
-            "time": "19:30",
-            "artist": "Lev Radagan live"
+            "artist": "Lev Radagan live",
+            "start-time": "2025-08-01T19:30:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 90.0
           },
           {
-            "time": "21:00",
-            "artist": "Dharma & Abdallah live"
+            "artist": "Dharma & Abdallah live",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-01T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Mantravine live"
+            "artist": "Mantravine live",
+            "start-time": "2025-08-01T23:00:00",
+            "end-time": "2025-08-02T01:00:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "01:00",
-            "artist": "Dragana"
+            "artist": "Dragana",
+            "start-time": "2025-08-02T01:00:00",
+            "end-time": "2025-08-02T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "03:00",
-            "artist": "Delano Legito"
+            "artist": "Delano Legito",
+            "start-time": "2025-08-02T03:00:00",
+            "end-time": "2025-08-02T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "05:00",
-            "artist": "Casparallel live"
+            "artist": "Casparallel live",
+            "start-time": "2025-08-02T05:00:00",
+            "end-time": "2025-08-02T06:00:00",
+            "duration": 60.0
           },
           {
-            "time": "06:00",
-            "artist": "Dave Dinger"
+            "artist": "Dave Dinger",
+            "start-time": "2025-08-02T06:00:00",
+            "end-time": "2025-08-02T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "08:00",
-            "artist": "Selv Ikei live"
+            "artist": "Selv Ikei live",
+            "start-time": "2025-08-02T08:00:00",
+            "end-time": "2025-08-02T09:00:00",
+            "duration": 60.0
           },
           {
-            "time": "09:00",
-            "artist": "Protodub"
+            "artist": "Protodub",
+            "start-time": "2025-08-02T09:00:00",
+            "end-time": "2025-08-02T11:00:00",
+            "duration": 120.0
           },
           {
-            "time": "11:00",
-            "artist": "CuCiCuCi"
+            "artist": "CuCiCuCi",
+            "start-time": "2025-08-02T11:00:00",
+            "end-time": "2025-08-02T13:00:00",
+            "duration": 120.0
           },
           {
-            "time": "13:00",
-            "artist": "Leo Cameo"
+            "artist": "Leo Cameo",
+            "start-time": "2025-08-02T13:00:00",
+            "end-time": "2025-08-02T16:00:00",
+            "duration": 180.0
           },
           {
-            "time": "16:00",
-            "artist": "Konstantin"
+            "artist": "Konstantin",
+            "start-time": "2025-08-02T16:00:00",
+            "end-time": "2025-08-02T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:00",
-            "artist": "Maria & Lila Orchestra live"
+            "artist": "Maria & Lila Orchestra live",
+            "start-time": "2025-08-02T18:00:00",
+            "end-time": "2025-08-02T20:30:00",
+            "duration": 150.0
           },
           {
-            "time": "20:30",
-            "artist": "Spievy live"
+            "artist": "Spievy live",
+            "start-time": "2025-08-02T20:30:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 30.0
           },
           {
-            "time": "21:00",
-            "artist": "DJ Wife"
+            "artist": "DJ Wife",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-02T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Zabralo Sound System"
+            "artist": "Zabralo Sound System",
+            "start-time": "2025-08-02T23:00:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "01:00",
-            "artist": "The Dreamies (dream set) live"
+            "artist": "The Dreamies (dream set) live",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T02:00:00",
+            "duration": 60.0
           },
           {
-            "time": "02:00",
-            "artist": "K3RMiT D33"
+            "artist": "K3RMiT D33",
+            "start-time": "2025-08-03T02:00:00",
+            "end-time": "2025-08-03T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "Dj Slowsex & Desira Noroi"
+            "artist": "Dj Slowsex & Desira Noroi",
+            "start-time": "2025-08-03T04:00:00",
+            "end-time": "2025-08-03T08:00:00",
+            "duration": 240.0
           },
           {
-            "time": "08:00",
-            "artist": "Down Unders live"
+            "artist": "Down Unders live",
+            "start-time": "2025-08-03T08:00:00",
+            "end-time": "2025-08-03T12:00:00",
+            "duration": 240.0
           },
           {
-            "time": "12:00",
-            "artist": "Shyam Sundar live"
+            "artist": "Shyam Sundar live",
+            "start-time": "2025-08-03T12:00:00",
+            "end-time": "2025-08-03T13:00:00",
+            "duration": 60.0
           },
           {
-            "time": "13:00",
-            "artist": "3 Ohm live"
+            "artist": "3 Ohm live",
+            "start-time": "2025-08-03T13:00:00",
+            "end-time": "2025-08-03T14:00:00",
+            "duration": 60.0
           },
           {
-            "time": "14:00",
-            "artist": "Montuno & Oplik live"
+            "artist": "Montuno & Oplik live",
+            "start-time": "2025-08-03T14:00:00",
+            "end-time": "2025-08-03T16:30:00",
+            "duration": 150.0
           },
           {
-            "time": "16:30",
-            "artist": "Margaux Gazur live"
+            "artist": "Margaux Gazur live",
+            "start-time": "2025-08-03T16:30:00",
+            "end-time": "2025-08-03T18:00:00",
+            "duration": 90.0
           },
           {
-            "time": "18:00",
-            "artist": "Christian"
+            "artist": "Christian",
+            "start-time": "2025-08-03T18:00:00",
+            "end-time": "2025-08-03T19:30:00",
+            "duration": 90.0
           },
           {
-            "time": "19:30",
-            "artist": "Star Works & Friends live"
+            "artist": "Star Works & Friends live",
+            "start-time": "2025-08-03T19:30:00",
+            "end-time": "2025-08-03T21:30:00",
+            "duration": 120.0
           },
           {
-            "time": "21:30",
-            "artist": "Lila Collective"
+            "artist": "Lila Collective",
+            "start-time": "2025-08-03T21:30:00",
+            "end-time": "2025-08-03T23:00:00",
+            "duration": 90.0
           },
           {
-            "time": "23:00",
-            "artist": "Soft Touch live"
+            "artist": "Soft Touch live",
+            "start-time": "2025-08-03T23:00:00",
+            "end-time": "2025-08-04T01:00:00",
+            "duration": 120.0
           }
         ],
         "MONDAY": [
           {
-            "time": "01:00",
-            "artist": "Hye-Eun Kim live"
+            "artist": "Hye-Eun Kim live",
+            "start-time": "2025-08-04T01:00:00",
+            "end-time": "2025-08-04T02:00:00",
+            "duration": 60.0
           },
           {
-            "time": "02:00",
-            "artist": "Tai Rona"
+            "artist": "Tai Rona",
+            "start-time": "2025-08-04T02:00:00",
+            "end-time": "2025-08-04T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "GR 34"
+            "artist": "GR 34",
+            "start-time": "2025-08-04T04:00:00",
+            "end-time": "2025-08-04T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "06:00",
-            "artist": "Morellion & Thunderklaus"
+            "artist": "Morellion & Thunderklaus",
+            "start-time": "2025-08-04T06:00:00",
+            "end-time": "2025-08-04T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "08:00",
-            "artist": "DS83 & Laura Fiore"
+            "artist": "DS83 & Laura Fiore",
+            "start-time": "2025-08-04T08:00:00",
+            "end-time": "2025-08-04T10:00:00",
+            "duration": 120.0
           },
           {
-            "time": "10:00",
-            "artist": "kAUBL live"
+            "artist": "kAUBL live",
+            "start-time": "2025-08-04T10:00:00",
+            "end-time": "2025-08-04T12:00:00",
+            "duration": 120.0
           },
           {
-            "time": "12:00",
-            "artist": "Iana Go & Doron Eisenberg"
+            "artist": "Iana Go & Doron Eisenberg",
+            "start-time": "2025-08-04T12:00:00",
+            "end-time": "2025-08-04T15:00:00",
+            "duration": 180.0
           },
           {
-            "time": "15:00",
-            "artist": "Uroboros live"
+            "artist": "Uroboros live",
+            "start-time": "2025-08-04T15:00:00",
+            "end-time": "2025-08-04T16:30:00",
+            "duration": 90.0
           },
           {
-            "time": "16:30",
-            "artist": "sy_am live"
+            "artist": "sy_am live",
+            "start-time": "2025-08-04T16:30:00",
+            "end-time": "2025-08-04T18:00:00",
+            "duration": 90.0
           },
           {
-            "time": "18:00",
-            "artist": "Tobias Feltes & Anna Davoll live"
+            "artist": "Tobias Feltes & Anna Davoll live",
+            "start-time": "2025-08-04T18:00:00",
+            "end-time": "2025-08-04T19:00:00",
+            "duration": 60.0
           },
           {
-            "time": "19:00",
-            "artist": "Psychedelic Gong Sound Journey live"
+            "artist": "Psychedelic Gong Sound Journey live",
+            "start-time": "2025-08-04T19:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 60.0
           },
           {
-            "time": "20:00",
-            "artist": "end"
+            "artist": "end",
+            "start-time": "2025-08-04T20:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -921,156 +1457,228 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "17:00",
-            "artist": "Israa Shalaby live"
+            "artist": "Israa Shalaby live",
+            "start-time": "2025-07-31T17:00:00",
+            "end-time": "2025-07-31T18:00:00",
+            "duration": 60.0
           },
           {
-            "time": "18:00",
-            "artist": "Uiava"
+            "artist": "Uiava",
+            "start-time": "2025-07-31T18:00:00",
+            "end-time": "2025-07-31T20:30:00",
+            "duration": 150.0
           },
           {
-            "time": "20:30",
-            "artist": "Yentl"
+            "artist": "Yentl",
+            "start-time": "2025-07-31T20:30:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 150.0
           },
           {
-            "time": "23:00",
-            "artist": "Caleb Jackon"
-          },
-          {
-            "time": "01:00",
-            "artist": "Trava"
-          },
-          {
-            "time": "03:00",
-            "artist": "Nowosad"
-          },
-          {
-            "time": "05:30",
-            "artist": "Shugi"
-          },
-          {
-            "time": "07:30",
-            "artist": "ALA BØRA"
-          },
-          {
-            "time": "10:00",
-            "artist": "break"
+            "artist": "Caleb Jackon",
+            "start-time": "2025-07-31T23:00:00",
+            "end-time": "2025-08-01T01:00:00",
+            "duration": 120.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "12:00",
-            "artist": "Cosmiclementine"
+            "artist": "Trava",
+            "start-time": "2025-08-01T01:00:00",
+            "end-time": "2025-08-01T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "14:00",
-            "artist": "Lotte Ahoi"
+            "artist": "Nowosad",
+            "start-time": "2025-08-01T03:00:00",
+            "end-time": "2025-08-01T05:30:00",
+            "duration": 150.0
           },
           {
-            "time": "16:00",
-            "artist": "Dada Disco"
+            "artist": "Shugi",
+            "start-time": "2025-08-01T05:30:00",
+            "end-time": "2025-08-01T07:30:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Gui Machado"
+            "artist": "ALA BØRA",
+            "start-time": "2025-08-01T07:30:00",
+            "end-time": "2025-08-01T10:00:00",
+            "duration": 150.0
           },
           {
-            "time": "22:00",
-            "artist": "Ata & ND_baumecker"
+            "artist": "break",
+            "start-time": "2025-08-01T10:00:00",
+            "end-time": "2025-08-01T12:00:00",
+            "duration": 120.0
           },
           {
-            "time": "02:00",
-            "artist": "Aerobica"
+            "artist": "Cosmiclementine",
+            "start-time": "2025-08-01T12:00:00",
+            "end-time": "2025-08-01T14:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:30",
-            "artist": "Sarah & Saad"
+            "artist": "Lotte Ahoi",
+            "start-time": "2025-08-01T14:00:00",
+            "end-time": "2025-08-01T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "07:00",
-            "artist": "Pnny"
+            "artist": "Dada Disco",
+            "start-time": "2025-08-01T16:00:00",
+            "end-time": "2025-08-01T19:00:00",
+            "duration": 180.0
           },
           {
-            "time": "10:00",
-            "artist": "break"
+            "artist": "Gui Machado",
+            "start-time": "2025-08-01T19:00:00",
+            "end-time": "2025-08-01T22:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "Ata & ND_baumecker",
+            "start-time": "2025-08-01T22:00:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 240.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "12:00",
-            "artist": "Anna Leevia & Johnny Lee Johnson"
+            "artist": "Aerobica",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T04:30:00",
+            "duration": 150.0
           },
           {
-            "time": "15:00",
-            "artist": "Dr. Kessler"
+            "artist": "Sarah & Saad",
+            "start-time": "2025-08-02T04:30:00",
+            "end-time": "2025-08-02T07:00:00",
+            "duration": 150.0
           },
           {
-            "time": "18:00",
-            "artist": "Fletchy Boy"
+            "artist": "Pnny",
+            "start-time": "2025-08-02T07:00:00",
+            "end-time": "2025-08-02T10:00:00",
+            "duration": 180.0
           },
           {
-            "time": "19:30",
-            "artist": "Naomi"
+            "artist": "break",
+            "start-time": "2025-08-02T10:00:00",
+            "end-time": "2025-08-02T12:00:00",
+            "duration": 120.0
           },
           {
-            "time": "21:30",
-            "artist": "WLC presents The Wezienwel Ensemble ft JO.KE"
+            "artist": "Anna Leevia & Johnny Lee Johnson",
+            "start-time": "2025-08-02T12:00:00",
+            "end-time": "2025-08-02T15:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "Dr. Kessler",
+            "start-time": "2025-08-02T15:00:00",
+            "end-time": "2025-08-02T18:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "Fletchy Boy",
+            "start-time": "2025-08-02T18:00:00",
+            "end-time": "2025-08-02T19:30:00",
+            "duration": 90.0
+          },
+          {
+            "artist": "Naomi",
+            "start-time": "2025-08-02T19:30:00",
+            "end-time": "2025-08-02T21:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "WLC presents The Wezienwel Ensemble ft JO.KE",
+            "start-time": "2025-08-02T21:30:00",
+            "end-time": "2025-08-03T00:00:00",
+            "duration": 150.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "00:00",
-            "artist": "Tiago Oudman"
+            "artist": "Tiago Oudman",
+            "start-time": "2025-08-03T00:00:00",
+            "end-time": "2025-08-03T03:00:00",
+            "duration": 180.0
           },
           {
-            "time": "03:00",
-            "artist": "Enzio Etchaberri"
+            "artist": "Enzio Etchaberri",
+            "start-time": "2025-08-03T03:00:00",
+            "end-time": "2025-08-03T06:00:00",
+            "duration": 180.0
           },
           {
-            "time": "06:00",
-            "artist": "Rasmus Lützen"
+            "artist": "Rasmus Lützen",
+            "start-time": "2025-08-03T06:00:00",
+            "end-time": "2025-08-03T09:00:00",
+            "duration": 180.0
           },
           {
-            "time": "09:00",
-            "artist": "oba & flip"
+            "artist": "oba & flip",
+            "start-time": "2025-08-03T09:00:00",
+            "end-time": "2025-08-03T11:30:00",
+            "duration": 150.0
           },
           {
-            "time": "11:30",
-            "artist": "Robin Scott"
+            "artist": "Robin Scott",
+            "start-time": "2025-08-03T11:30:00",
+            "end-time": "2025-08-03T14:00:00",
+            "duration": 150.0
           },
           {
-            "time": "14:00",
-            "artist": "Amina"
+            "artist": "Amina",
+            "start-time": "2025-08-03T14:00:00",
+            "end-time": "2025-08-03T15:30:00",
+            "duration": 90.0
           },
           {
-            "time": "15:30",
-            "artist": "Make a Dance"
+            "artist": "Make a Dance",
+            "start-time": "2025-08-03T15:30:00",
+            "end-time": "2025-08-03T18:00:00",
+            "duration": 150.0
           },
           {
-            "time": "18:00",
-            "artist": "Checkup & Mona Lee"
+            "artist": "Checkup & Mona Lee",
+            "start-time": "2025-08-03T18:00:00",
+            "end-time": "2025-08-03T20:30:00",
+            "duration": 150.0
           },
           {
-            "time": "20:30",
-            "artist": "Move D"
+            "artist": "Move D",
+            "start-time": "2025-08-03T20:30:00",
+            "end-time": "2025-08-03T23:30:00",
+            "duration": 180.0
           },
           {
-            "time": "23:30",
-            "artist": "Kotoe & Madmotormiquel"
+            "artist": "Kotoe & Madmotormiquel",
+            "start-time": "2025-08-03T23:30:00",
+            "end-time": "2025-08-04T02:00:00",
+            "duration": 150.0
           }
         ],
         "MONDAY": [
           {
-            "time": "02:00",
-            "artist": "Jake The Rapper"
+            "artist": "Jake The Rapper",
+            "start-time": "2025-08-04T02:00:00",
+            "end-time": "2025-08-04T05:00:00",
+            "duration": 180.0
           },
           {
-            "time": "05:00",
-            "artist": "Juicifer"
+            "artist": "Juicifer",
+            "start-time": "2025-08-04T05:00:00",
+            "end-time": "2025-08-04T08:00:00",
+            "duration": 180.0
           },
           {
-            "time": "08:00",
-            "artist": "end"
+            "artist": "end",
+            "start-time": "2025-08-04T08:00:00",
+            "end-time": "2025-08-04T08:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -1081,182 +1689,268 @@
       "schedule": {
         "THURSDAY": [
           {
-            "time": "15:30",
-            "artist": "Sarah 4k live"
+            "artist": "Sarah 4k live",
+            "start-time": "2025-07-31T15:30:00",
+            "end-time": "2025-07-31T16:30:00",
+            "duration": 60.0
           },
           {
-            "time": "16:30",
-            "artist": "Abiba"
+            "artist": "Abiba",
+            "start-time": "2025-07-31T16:30:00",
+            "end-time": "2025-07-31T18:30:00",
+            "duration": 120.0
           },
           {
-            "time": "18:30",
-            "artist": "reading & discussion from the book:"
+            "artist": "reading & discussion from the book:",
+            "start-time": "2025-07-31T18:30:00",
+            "end-time": "2025-07-31T19:30:00",
+            "duration": 60.0
           },
           {
-            "time": "19:30",
-            "artist": "Prano b2b Luas"
+            "artist": "Prano b2b Luas",
+            "start-time": "2025-07-31T19:30:00",
+            "end-time": "2025-07-31T22:30:00",
+            "duration": 180.0
           },
           {
-            "time": "22:30",
-            "artist": "Maxed Out solo live"
+            "artist": "Maxed Out solo live",
+            "start-time": "2025-07-31T22:30:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 30.0
           },
           {
-            "time": "23:00",
-            "artist": "DJ Gel"
-          },
-          {
-            "time": "00:00",
-            "artist": "break"
+            "artist": "DJ Gel",
+            "start-time": "2025-07-31T23:00:00",
+            "end-time": "2025-08-01T00:00:00",
+            "duration": 60.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "10:00",
-            "artist": "Run and Rave sport"
+            "artist": "break",
+            "start-time": "2025-08-01T00:00:00",
+            "end-time": "2025-08-01T10:00:00",
+            "duration": 600.0
           },
           {
-            "time": "11:00",
-            "artist": "Sektfrühstück"
+            "artist": "Run and Rave sport",
+            "start-time": "2025-08-01T10:00:00",
+            "end-time": "2025-08-01T11:00:00",
+            "duration": 60.0
           },
           {
-            "time": "13:00",
-            "artist": "reading Naked Solidarity"
+            "artist": "Sektfrühstück",
+            "start-time": "2025-08-01T11:00:00",
+            "end-time": "2025-08-01T13:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:00",
-            "artist": "DJ LoriSmalls"
+            "artist": "reading Naked Solidarity",
+            "start-time": "2025-08-01T13:00:00",
+            "end-time": "2025-08-01T15:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "ZE:NA b2b PJ Bridger"
+            "artist": "DJ LoriSmalls",
+            "start-time": "2025-08-01T15:00:00",
+            "end-time": "2025-08-01T17:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "charkie live"
+            "artist": "ZE:NA b2b PJ Bridger",
+            "start-time": "2025-08-01T17:00:00",
+            "end-time": "2025-08-01T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Alice Dee live"
+            "artist": "charkie live",
+            "start-time": "2025-08-01T19:00:00",
+            "end-time": "2025-08-01T20:00:00",
+            "duration": 60.0
           },
           {
-            "time": "21:00",
-            "artist": "ACUD live"
+            "artist": "Alice Dee live",
+            "start-time": "2025-08-01T20:00:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 60.0
           },
           {
-            "time": "22:30",
-            "artist": "Baige"
+            "artist": "ACUD live",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-01T22:30:00",
+            "duration": 90.0
           },
           {
-            "time": "00:30",
-            "artist": "Limbica"
-          },
-          {
-            "time": "02:00",
-            "artist": "Jaamann"
-          },
-          {
-            "time": "04:30",
-            "artist": "Emo Rugene"
-          },
-          {
-            "time": "06:30",
-            "artist": "break"
+            "artist": "Baige",
+            "start-time": "2025-08-01T22:30:00",
+            "end-time": "2025-08-02T00:30:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "09:30",
-            "artist": "Run and Rave sport"
+            "artist": "Limbica",
+            "start-time": "2025-08-02T00:30:00",
+            "end-time": "2025-08-02T02:00:00",
+            "duration": 90.0
           },
           {
-            "time": "10:30",
-            "artist": "Air-Ron"
+            "artist": "Jaamann",
+            "start-time": "2025-08-02T02:00:00",
+            "end-time": "2025-08-02T04:30:00",
+            "duration": 150.0
           },
           {
-            "time": "12:30",
-            "artist": "Hyper Hugo b2b tatse"
+            "artist": "Emo Rugene",
+            "start-time": "2025-08-02T04:30:00",
+            "end-time": "2025-08-02T06:30:00",
+            "duration": 120.0
           },
           {
-            "time": "14:30",
-            "artist": "reading Disco Wurzeln"
+            "artist": "break",
+            "start-time": "2025-08-02T06:30:00",
+            "end-time": "2025-08-02T09:30:00",
+            "duration": 180.0
           },
           {
-            "time": "15:30",
-            "artist": "Voguing workshop"
+            "artist": "Run and Rave sport",
+            "start-time": "2025-08-02T09:30:00",
+            "end-time": "2025-08-02T10:30:00",
+            "duration": 60.0
           },
           {
-            "time": "16:30",
-            "artist": "Tuesday Heartbreak"
+            "artist": "Air-Ron",
+            "start-time": "2025-08-02T10:30:00",
+            "end-time": "2025-08-02T12:30:00",
+            "duration": 120.0
           },
           {
-            "time": "18:30",
-            "artist": "D‘Monk"
+            "artist": "Hyper Hugo b2b tatse",
+            "start-time": "2025-08-02T12:30:00",
+            "end-time": "2025-08-02T14:30:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Kotelett"
+            "artist": "reading Disco Wurzeln",
+            "start-time": "2025-08-02T14:30:00",
+            "end-time": "2025-08-02T15:30:00",
+            "duration": 60.0
           },
           {
-            "time": "22:00",
-            "artist": "Bekka"
+            "artist": "Voguing workshop",
+            "start-time": "2025-08-02T15:30:00",
+            "end-time": "2025-08-02T16:30:00",
+            "duration": 60.0
           },
           {
-            "time": "00:00",
-            "artist": "Lotte der Boss"
+            "artist": "Tuesday Heartbreak",
+            "start-time": "2025-08-02T16:30:00",
+            "end-time": "2025-08-02T18:30:00",
+            "duration": 120.0
           },
           {
-            "time": "02:00",
-            "artist": "Sachsentrance showcase w/"
+            "artist": "D‘Monk",
+            "start-time": "2025-08-02T18:30:00",
+            "end-time": "2025-08-02T20:00:00",
+            "duration": 90.0
           },
           {
-            "time": "02:00",
-            "artist": "The Jakob Sister"
+            "artist": "Kotelett",
+            "start-time": "2025-08-02T20:00:00",
+            "end-time": "2025-08-02T22:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "Raverpik"
-          },
-          {
-            "time": "06:00",
-            "artist": "Cargo b2b Sabu!"
-          },
-          {
-            "time": "08:00",
-            "artist": "break"
+            "artist": "Bekka",
+            "start-time": "2025-08-02T22:00:00",
+            "end-time": "2025-08-03T00:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "10:30",
-            "artist": "HighROX sport"
+            "artist": "Lotte der Boss",
+            "start-time": "2025-08-03T00:00:00",
+            "end-time": "2025-08-03T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "11:30",
-            "artist": "Vee"
+            "artist": "Sachsentrance showcase w/",
+            "start-time": "2025-08-03T02:00:00",
+            "end-time": "2025-08-03T02:00:00",
+            "duration": 0.0
           },
           {
-            "time": "13:30",
-            "artist": "Federico"
+            "artist": "The Jakob Sister",
+            "start-time": "2025-08-03T02:00:00",
+            "end-time": "2025-08-03T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "15:30",
-            "artist": "How to be Happy workshop"
+            "artist": "Raverpik",
+            "start-time": "2025-08-03T04:00:00",
+            "end-time": "2025-08-03T06:00:00",
+            "duration": 120.0
           },
           {
-            "time": "16:30",
-            "artist": "reading Jovana Reisinger"
+            "artist": "Cargo b2b Sabu!",
+            "start-time": "2025-08-03T06:00:00",
+            "end-time": "2025-08-03T08:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:30",
-            "artist": "Kitagawa"
+            "artist": "break",
+            "start-time": "2025-08-03T08:00:00",
+            "end-time": "2025-08-03T10:30:00",
+            "duration": 150.0
           },
           {
-            "time": "19:30",
-            "artist": "Zimmermann"
+            "artist": "HighROX sport",
+            "start-time": "2025-08-03T10:30:00",
+            "end-time": "2025-08-03T11:30:00",
+            "duration": 60.0
           },
           {
-            "time": "21:30",
-            "artist": "end"
+            "artist": "Vee",
+            "start-time": "2025-08-03T11:30:00",
+            "end-time": "2025-08-03T13:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Federico",
+            "start-time": "2025-08-03T13:30:00",
+            "end-time": "2025-08-03T15:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "How to be Happy workshop",
+            "start-time": "2025-08-03T15:30:00",
+            "end-time": "2025-08-03T16:30:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "reading Jovana Reisinger",
+            "start-time": "2025-08-03T16:30:00",
+            "end-time": "2025-08-03T17:30:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "Kitagawa",
+            "start-time": "2025-08-03T17:30:00",
+            "end-time": "2025-08-03T19:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Zimmermann",
+            "start-time": "2025-08-03T19:30:00",
+            "end-time": "2025-08-03T21:30:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-03T21:30:00",
+            "end-time": "2025-08-03T21:30:00",
+            "duration": 0.0
           }
         ]
       }
@@ -1267,202 +1961,296 @@
       "schedule": {
         "WEDNESDAY": [
           {
-            "time": "20:00",
-            "artist": "1781 Collective - classical prelude"
-          },
-          {
-            "time": "22:00",
-            "artist": "break"
+            "artist": "1781 Collective - classical prelude",
+            "start-time": "2025-07-30T20:00:00",
+            "end-time": "2025-07-30T22:00:00",
+            "duration": 120.0
           }
         ],
         "THURSDAY": [
           {
-            "time": "16:00",
-            "artist": "Velvet Whispers by Zohar feat. Ha:arp"
+            "artist": "break",
+            "start-time": "2025-07-31T00:00:00",
+            "end-time": "2025-07-31T16:00:00",
+            "duration": 960.0
           },
           {
-            "time": "18:00",
-            "artist": "open stage: Piano Contest"
+            "artist": "Velvet Whispers by Zohar feat. Ha:arp",
+            "start-time": "2025-07-31T16:00:00",
+            "end-time": "2025-07-31T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Nectar live"
+            "artist": "open stage: Piano Contest",
+            "start-time": "2025-07-31T18:00:00",
+            "end-time": "2025-07-31T20:00:00",
+            "duration": 120.0
           },
           {
-            "time": "22:00",
-            "artist": "Laura Sequoia live"
+            "artist": "Nectar live",
+            "start-time": "2025-07-31T20:00:00",
+            "end-time": "2025-07-31T22:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Gunnar Mühlmann: Ouroboros meditation"
+            "artist": "Laura Sequoia live",
+            "start-time": "2025-07-31T22:00:00",
+            "end-time": "2025-07-31T23:00:00",
+            "duration": 60.0
           },
           {
-            "time": "00:00",
-            "artist": "Passt Partout"
-          },
-          {
-            "time": "02:00",
-            "artist": "Magikristy"
-          },
-          {
-            "time": "04:00",
-            "artist": "break"
+            "artist": "Gunnar Mühlmann: Ouroboros meditation",
+            "start-time": "2025-07-31T23:00:00",
+            "end-time": "2025-08-01T00:00:00",
+            "duration": 60.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "18:00",
-            "artist": "Wojtek & Audae"
+            "artist": "Passt Partout",
+            "start-time": "2025-08-01T00:00:00",
+            "end-time": "2025-08-01T02:00:00",
+            "duration": 120.0
           },
           {
-            "time": "19:00",
-            "artist": "Andy Aquarius [live harp]"
+            "artist": "Magikristy",
+            "start-time": "2025-08-01T02:00:00",
+            "end-time": "2025-08-01T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "20:00",
-            "artist": "Bison Rouge live"
+            "artist": "break",
+            "start-time": "2025-08-01T04:00:00",
+            "end-time": "2025-08-01T18:00:00",
+            "duration": 840.0
           },
           {
-            "time": "21:00",
-            "artist": "Cabaret Cravache"
+            "artist": "Wojtek & Audae",
+            "start-time": "2025-08-01T18:00:00",
+            "end-time": "2025-08-01T19:00:00",
+            "duration": 60.0
           },
           {
-            "time": "23:00",
-            "artist": "Raz Ohara live"
+            "artist": "Andy Aquarius [live harp]",
+            "start-time": "2025-08-01T19:00:00",
+            "end-time": "2025-08-01T20:00:00",
+            "duration": 60.0
           },
           {
-            "time": "01:00",
-            "artist": "5StringTheory live"
+            "artist": "Bison Rouge live",
+            "start-time": "2025-08-01T20:00:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 60.0
           },
           {
-            "time": "03:00",
-            "artist": "Filipa Lazary (Wumanas)"
+            "artist": "Cabaret Cravache",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-01T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "05:00",
-            "artist": "break"
+            "artist": "Raz Ohara live",
+            "start-time": "2025-08-01T23:00:00",
+            "end-time": "2025-08-02T01:00:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "14:00",
-            "artist": "opening Danielle Barnett"
+            "artist": "5StringTheory live",
+            "start-time": "2025-08-02T01:00:00",
+            "end-time": "2025-08-02T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "16:00",
-            "artist": "BRUNNÄ (Wumanas)"
+            "artist": "Filipa Lazary (Wumanas)",
+            "start-time": "2025-08-02T03:00:00",
+            "end-time": "2025-08-02T05:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:00",
-            "artist": "Alma Linda"
+            "artist": "break",
+            "start-time": "2025-08-02T05:00:00",
+            "end-time": "2025-08-02T14:00:00",
+            "duration": 540.0
           },
           {
-            "time": "21:00",
-            "artist": "unders"
+            "artist": "opening Danielle Barnett",
+            "start-time": "2025-08-02T14:00:00",
+            "end-time": "2025-08-02T16:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Temple Haze live"
+            "artist": "BRUNNÄ (Wumanas)",
+            "start-time": "2025-08-02T16:00:00",
+            "end-time": "2025-08-02T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "ulises"
+            "artist": "Alma Linda",
+            "start-time": "2025-08-02T18:00:00",
+            "end-time": "2025-08-02T21:00:00",
+            "duration": 180.0
           },
           {
-            "time": "02:30",
-            "artist": "Ezio Aguiar"
+            "artist": "unders",
+            "start-time": "2025-08-02T21:00:00",
+            "end-time": "2025-08-02T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "Athenaïs live"
-          },
-          {
-            "time": "05:00",
-            "artist": "Avi & Kuba live"
-          },
-          {
-            "time": "06:00",
-            "artist": "break"
+            "artist": "Temple Haze live",
+            "start-time": "2025-08-02T23:00:00",
+            "end-time": "2025-08-03T01:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "16:00",
-            "artist": "SLOWLING"
+            "artist": "ulises",
+            "start-time": "2025-08-03T01:00:00",
+            "end-time": "2025-08-03T02:30:00",
+            "duration": 90.0
           },
           {
-            "time": "18:00",
-            "artist": "Aurora of Indigo live"
+            "artist": "Ezio Aguiar",
+            "start-time": "2025-08-03T02:30:00",
+            "end-time": "2025-08-03T04:00:00",
+            "duration": 90.0
           },
           {
-            "time": "19:00",
-            "artist": "open stage: Piano Co-Creations"
+            "artist": "Athenaïs live",
+            "start-time": "2025-08-03T04:00:00",
+            "end-time": "2025-08-03T05:00:00",
+            "duration": 60.0
           },
           {
-            "time": "21:00",
-            "artist": "Soneiro Collective live"
+            "artist": "Avi & Kuba live",
+            "start-time": "2025-08-03T05:00:00",
+            "end-time": "2025-08-03T06:00:00",
+            "duration": 60.0
           },
           {
-            "time": "23:00",
-            "artist": "LIHLAH (live)"
+            "artist": "break",
+            "start-time": "2025-08-03T06:00:00",
+            "end-time": "2025-08-03T16:00:00",
+            "duration": 600.0
           },
           {
-            "time": "00:30",
-            "artist": "Shibari performance by Marie Sauvage"
+            "artist": "SLOWLING",
+            "start-time": "2025-08-03T16:00:00",
+            "end-time": "2025-08-03T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "Philipp Johann Thimm live"
+            "artist": "Aurora of Indigo live",
+            "start-time": "2025-08-03T18:00:00",
+            "end-time": "2025-08-03T19:00:00",
+            "duration": 60.0
           },
           {
-            "time": "02:00",
-            "artist": "Rico Loop live"
+            "artist": "open stage: Piano Co-Creations",
+            "start-time": "2025-08-03T19:00:00",
+            "end-time": "2025-08-03T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "04:00",
-            "artist": "Stav Goldberg live"
+            "artist": "Soneiro Collective live",
+            "start-time": "2025-08-03T21:00:00",
+            "end-time": "2025-08-03T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "05:00",
-            "artist": "break"
+            "artist": "LIHLAH (live)",
+            "start-time": "2025-08-03T23:00:00",
+            "end-time": "2025-08-04T00:30:00",
+            "duration": 90.0
           }
         ],
         "MONDAY": [
           {
-            "time": "13:30",
-            "artist": "D.O. - Sonic Quantum Energy Soundbath"
+            "artist": "Shibari performance by Marie Sauvage",
+            "start-time": "2025-08-04T00:30:00",
+            "end-time": "2025-08-04T01:00:00",
+            "duration": 30.0
           },
           {
-            "time": "15:00",
-            "artist": "San Sander"
+            "artist": "Philipp Johann Thimm live",
+            "start-time": "2025-08-04T01:00:00",
+            "end-time": "2025-08-04T02:00:00",
+            "duration": 60.0
           },
           {
-            "time": "16:00",
-            "artist": "Jo.Ke, Roderic & Mendrix b3b"
+            "artist": "Rico Loop live",
+            "start-time": "2025-08-04T02:00:00",
+            "end-time": "2025-08-04T04:00:00",
+            "duration": 120.0
           },
           {
-            "time": "18:00",
-            "artist": "Suricata - Fede"
+            "artist": "Stav Goldberg live",
+            "start-time": "2025-08-04T04:00:00",
+            "end-time": "2025-08-04T05:00:00",
+            "duration": 60.0
           },
           {
-            "time": "20:00",
-            "artist": "Izagai"
+            "artist": "break",
+            "start-time": "2025-08-04T05:00:00",
+            "end-time": "2025-08-04T13:30:00",
+            "duration": 510.0
           },
           {
-            "time": "21:00",
-            "artist": "SU PROJECT"
+            "artist": "D.O. - Sonic Quantum Energy Soundbath",
+            "start-time": "2025-08-04T13:30:00",
+            "end-time": "2025-08-04T15:00:00",
+            "duration": 90.0
           },
           {
-            "time": "22:00",
-            "artist": "Nicholas Bambxerger"
+            "artist": "San Sander",
+            "start-time": "2025-08-04T15:00:00",
+            "end-time": "2025-08-04T16:00:00",
+            "duration": 60.0
           },
           {
-            "time": "23:00",
-            "artist": "GongwithFrida"
+            "artist": "Jo.Ke, Roderic & Mendrix b3b",
+            "start-time": "2025-08-04T16:00:00",
+            "end-time": "2025-08-04T18:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "end"
+            "artist": "Suricata - Fede",
+            "start-time": "2025-08-04T18:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Izagai",
+            "start-time": "2025-08-04T20:00:00",
+            "end-time": "2025-08-04T21:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "SU PROJECT",
+            "start-time": "2025-08-04T21:00:00",
+            "end-time": "2025-08-04T22:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "Nicholas Bambxerger",
+            "start-time": "2025-08-04T22:00:00",
+            "end-time": "2025-08-04T23:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "GongwithFrida",
+            "start-time": "2025-08-04T23:00:00",
+            "end-time": "2025-08-05T00:00:00",
+            "duration": 60.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-05T00:00:00",
+            "end-time": "2025-08-05T00:00:00",
+            "duration": 0.0
           }
         ]
       }
@@ -1473,150 +2261,218 @@
       "schedule": {
         "WEDNESDAY": [
           {
-            "time": "17:00",
-            "artist": "Borrega & Nadeya"
+            "artist": "Borrega & Nadeya",
+            "start-time": "2025-07-30T17:00:00",
+            "end-time": "2025-07-30T20:00:00",
+            "duration": 180.0
           },
           {
-            "time": "20:00",
-            "artist": "Pappenheimer Cuvée"
-          },
-          {
-            "time": "02:00",
-            "artist": "break"
+            "artist": "Pappenheimer Cuvée",
+            "start-time": "2025-07-30T20:00:00",
+            "end-time": "2025-07-31T02:00:00",
+            "duration": 360.0
           }
         ],
         "THURSDAY": [
           {
-            "time": "14:00",
-            "artist": "Claus Fussek"
+            "artist": "break",
+            "start-time": "2025-07-31T02:00:00",
+            "end-time": "2025-07-31T14:00:00",
+            "duration": 720.0
           },
           {
-            "time": "17:00",
-            "artist": "DJ Pult"
+            "artist": "Claus Fussek",
+            "start-time": "2025-07-31T14:00:00",
+            "end-time": "2025-07-31T17:00:00",
+            "duration": 180.0
           },
           {
-            "time": "20:00",
-            "artist": "Alex Thevery"
+            "artist": "DJ Pult",
+            "start-time": "2025-07-31T17:00:00",
+            "end-time": "2025-07-31T20:00:00",
+            "duration": 180.0
           },
           {
-            "time": "22:00",
-            "artist": "Soffritto"
+            "artist": "Alex Thevery",
+            "start-time": "2025-07-31T20:00:00",
+            "end-time": "2025-07-31T22:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "C’mon"
-          },
-          {
-            "time": "03:00",
-            "artist": "break"
+            "artist": "Soffritto",
+            "start-time": "2025-07-31T22:00:00",
+            "end-time": "2025-08-01T01:00:00",
+            "duration": 180.0
           }
         ],
         "FRIDAY": [
           {
-            "time": "13:00",
-            "artist": "Justin Case & Ferry Nough"
+            "artist": "C’mon",
+            "start-time": "2025-08-01T01:00:00",
+            "end-time": "2025-08-01T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "Jeanette Trèsbien"
+            "artist": "break",
+            "start-time": "2025-08-01T03:00:00",
+            "end-time": "2025-08-01T13:00:00",
+            "duration": 600.0
           },
           {
-            "time": "19:00",
-            "artist": "Romanski"
+            "artist": "Justin Case & Ferry Nough",
+            "start-time": "2025-08-01T13:00:00",
+            "end-time": "2025-08-01T17:00:00",
+            "duration": 240.0
           },
           {
-            "time": "21:00",
-            "artist": "Sunny’s Karaoke Night"
+            "artist": "Jeanette Trèsbien",
+            "start-time": "2025-08-01T17:00:00",
+            "end-time": "2025-08-01T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "23:00",
-            "artist": "Disco Drongos"
+            "artist": "Romanski",
+            "start-time": "2025-08-01T19:00:00",
+            "end-time": "2025-08-01T21:00:00",
+            "duration": 120.0
           },
           {
-            "time": "01:00",
-            "artist": "Christian Andreas b2b Jawwa"
+            "artist": "Sunny’s Karaoke Night",
+            "start-time": "2025-08-01T21:00:00",
+            "end-time": "2025-08-01T23:00:00",
+            "duration": 120.0
           },
           {
-            "time": "03:00",
-            "artist": "break"
+            "artist": "Disco Drongos",
+            "start-time": "2025-08-01T23:00:00",
+            "end-time": "2025-08-02T01:00:00",
+            "duration": 120.0
           }
         ],
         "SATURDAY": [
           {
-            "time": "13:00",
-            "artist": "Seepferdchen Allstars"
+            "artist": "Christian Andreas b2b Jawwa",
+            "start-time": "2025-08-02T01:00:00",
+            "end-time": "2025-08-02T03:00:00",
+            "duration": 120.0
           },
           {
-            "time": "17:00",
-            "artist": "Astalafiesta"
+            "artist": "break",
+            "start-time": "2025-08-02T03:00:00",
+            "end-time": "2025-08-02T13:00:00",
+            "duration": 600.0
           },
           {
-            "time": "19:00",
-            "artist": "Disco Sour"
+            "artist": "Seepferdchen Allstars",
+            "start-time": "2025-08-02T13:00:00",
+            "end-time": "2025-08-02T17:00:00",
+            "duration": 240.0
           },
           {
-            "time": "22:00",
-            "artist": "Jan Peter Gucci b2b Thorleif"
+            "artist": "Astalafiesta",
+            "start-time": "2025-08-02T17:00:00",
+            "end-time": "2025-08-02T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Moritz Butschek"
+            "artist": "Disco Sour",
+            "start-time": "2025-08-02T19:00:00",
+            "end-time": "2025-08-02T22:00:00",
+            "duration": 180.0
           },
           {
-            "time": "03:00",
-            "artist": "break"
+            "artist": "Jan Peter Gucci b2b Thorleif",
+            "start-time": "2025-08-02T22:00:00",
+            "end-time": "2025-08-03T00:00:00",
+            "duration": 120.0
           }
         ],
         "SUNDAY": [
           {
-            "time": "13:00",
-            "artist": "Martin Moritz"
+            "artist": "Moritz Butschek",
+            "start-time": "2025-08-03T00:00:00",
+            "end-time": "2025-08-03T03:00:00",
+            "duration": 180.0
           },
           {
-            "time": "16:00",
-            "artist": "Dolph live"
+            "artist": "break",
+            "start-time": "2025-08-03T03:00:00",
+            "end-time": "2025-08-03T13:00:00",
+            "duration": 600.0
           },
           {
-            "time": "17:00",
-            "artist": "Diego Veira"
+            "artist": "Martin Moritz",
+            "start-time": "2025-08-03T13:00:00",
+            "end-time": "2025-08-03T16:00:00",
+            "duration": 180.0
           },
           {
-            "time": "19:00",
-            "artist": "Mille The Hit live"
+            "artist": "Dolph live",
+            "start-time": "2025-08-03T16:00:00",
+            "end-time": "2025-08-03T17:00:00",
+            "duration": 60.0
           },
           {
-            "time": "20:00",
-            "artist": "Macchina Nera"
+            "artist": "Diego Veira",
+            "start-time": "2025-08-03T17:00:00",
+            "end-time": "2025-08-03T19:00:00",
+            "duration": 120.0
           },
           {
-            "time": "00:00",
-            "artist": "Aaron Ahrends & Mellowflex"
+            "artist": "Mille The Hit live",
+            "start-time": "2025-08-03T19:00:00",
+            "end-time": "2025-08-03T20:00:00",
+            "duration": 60.0
           },
           {
-            "time": "03:00",
-            "artist": "break"
+            "artist": "Macchina Nera",
+            "start-time": "2025-08-03T20:00:00",
+            "end-time": "2025-08-04T00:00:00",
+            "duration": 240.0
           }
         ],
         "MONDAY": [
           {
-            "time": "13:00",
-            "artist": "Rainer Wahnsinn"
+            "artist": "Aaron Ahrends & Mellowflex",
+            "start-time": "2025-08-04T00:00:00",
+            "end-time": "2025-08-04T03:00:00",
+            "duration": 180.0
           },
           {
-            "time": "16:00",
-            "artist": "ISIS b2b Carl Coi"
+            "artist": "break",
+            "start-time": "2025-08-04T03:00:00",
+            "end-time": "2025-08-04T13:00:00",
+            "duration": 600.0
           },
           {
-            "time": "20:00",
-            "artist": "Klempi"
+            "artist": "Rainer Wahnsinn",
+            "start-time": "2025-08-04T13:00:00",
+            "end-time": "2025-08-04T16:00:00",
+            "duration": 180.0
           },
           {
-            "time": "22:00",
-            "artist": "Silvie"
+            "artist": "ISIS b2b Carl Coi",
+            "start-time": "2025-08-04T16:00:00",
+            "end-time": "2025-08-04T20:00:00",
+            "duration": 240.0
           },
           {
-            "time": "01:00",
-            "artist": "end"
+            "artist": "Klempi",
+            "start-time": "2025-08-04T20:00:00",
+            "end-time": "2025-08-04T22:00:00",
+            "duration": 120.0
+          },
+          {
+            "artist": "Silvie",
+            "start-time": "2025-08-04T22:00:00",
+            "end-time": "2025-08-05T01:00:00",
+            "duration": 180.0
+          },
+          {
+            "artist": "end",
+            "start-time": "2025-08-05T01:00:00",
+            "end-time": "2025-08-05T01:00:00",
+            "duration": 0.0
           }
         ]
       }
