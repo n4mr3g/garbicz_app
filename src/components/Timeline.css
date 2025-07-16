@@ -7,7 +7,7 @@
 .timeline-grid-hour-col {
   min-width: 100px;
   max-width: 100px;
-  border-right: 1px solid #e0e0e0;
+  border-right: 1px solid #eee;
   box-sizing: border-box;
   position: relative;
   display: flex;
@@ -41,7 +41,7 @@
 .timeline-grid-hour {
   padding: 2px 4px;
   font-size: 12px;
-  border-left: 1px solid #eee;
+  /* border-left: 1px solid #eee; */
   white-space: nowrap;
   line-height: 1;
   height: 24px;
@@ -74,7 +74,6 @@
 
 .performance-block {
   position: absolute;
-  top: 4px;
   height: 42px;
   background-color: #007bff;
   color: white;

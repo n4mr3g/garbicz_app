@@ -51,10 +51,12 @@ export default function Timeline({
   const totalHours = hoursInFirstDay + (days.length - 1) * 24;
   const totalHalfHours = totalHours * 2;
 
-
   const [zoom, setZoom] = useState(1);
   const gridRef = useRef<HTMLDivElement>(null);
-  const pinchState = useRef<{ initialDist: number; initialZoom: number } | null>(null);
+  const pinchState = useRef<{
+    initialDist: number;
+    initialZoom: number;
+  } | null>(null);
 
   const handleZoomIn = () => setZoom((z) => Math.min(z + 0.1, 2));
   const handleZoomOut = () => setZoom((z) => Math.max(z - 0.1, 0.5));
